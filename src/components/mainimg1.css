@@ -1,0 +1,13 @@
+.mainimg1 {
+    position: absolute;
+    top: 40%; 
+    right: 5%; 
+    transform: translateY(-50%); 
+    height: 40vh; 
+  }
+  
+  .mainimg1 img {
+    width: auto; 
+    height: 100%; 
+  }
+  

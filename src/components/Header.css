@@ -1,0 +1,52 @@
+.main-logo {
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    width: 100px;
+    height: auto;
+  }
+  
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .main-logo img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .auth-buttons {
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    right: 50px;
+  }
+  
+  .auth-buttons button {
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-btn {
+    background-color: #FFBF00;
+    color: black;
+    border-radius: 15px 0px 15px 15px;
+  }
+  
+  .signup-btn {
+    background-color: #FFBF00;
+    color: black;
+    border-radius: 15px 15px 15px 0px;
+  }

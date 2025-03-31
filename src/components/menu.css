@@ -1,6 +1,6 @@
 .menu-container {
   position: absolute;
-  top: 72%;
+  top: 76.5%;
   left: 60%;
   transform: translateX(-50%);
   display: flex;
@@ -8,11 +8,11 @@
 
 .menu-item {
   position: relative;
-  width: 200px;
+  width: 30vh;
   height: 60px;
   background-color: #ddd;
   text-align: center;
-  line-height: 40px;
+  line-height: 50px;
   border-radius: 20px 20px 0px 0px;
   transition: height 0.3s ease, transform 0.3s ease;
   overflow: hidden;

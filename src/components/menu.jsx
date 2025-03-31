@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./menu.css";
 
 const Menu = () => {
-  // 메뉴, 색상, 설명을 포함한 객체 배열
+
   const menus = [
     { title: "놀이", color: "#F2887E" , description: "놀이 설명" },
     { title: "게시판", color: "#91D9D2", description: "게시판 설명" },
@@ -32,12 +32,12 @@ const MenuItem = ({ title, color, description }) => {
       className={`menu-item ${hover ? "hover" : ""}`}
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      style={{ backgroundColor: color }} // 배경색을 동적으로 적용
+      style={{ backgroundColor: color }} 
     >
       <span className="menu-title">{title}</span>
       {hover && (
         <div className="menu-description">
-          {description} {/* hover 시, 설명 출력 */}
+          {description} 
         </div>
       )}
     </div>

@@ -1,14 +1,12 @@
 import React from "react";
-import bgImage from "../img/backgroundimg.png";
 import "./mainbackground.css";
 
-const MainBackground = () => {
+const Mainbackground = () => {
   return (
-    <div
-      className="main-background"
-      style={{ backgroundImage: `url(${bgImage})` }}
-    />
+    <div className="curved-box">
+     
+    </div>
   );
 };
 
-export default MainBackground;
+export default Mainbackground;

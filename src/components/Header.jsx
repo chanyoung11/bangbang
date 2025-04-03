@@ -13,8 +13,7 @@ const Mainlogo = () => {
 const AuthButtons = () => {
   return (
     <div className="auth-buttons">
-      <button className="login-btn">로그인</button>
-      <button className="signup-btn">회원가입</button>
+  
     </div>
   );
 };
@@ -29,5 +28,3 @@ const Header = () => {
 };
 export { Mainlogo };
 export default Header;
-
-
